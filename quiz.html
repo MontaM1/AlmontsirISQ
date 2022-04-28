@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+      <title>InfoSec Quiz</title>
+      <link rel="shortcut icon" href="favicon.png">
+
+      <link rel="stylesheet" href="quiz_style.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   </head>
+  <body class="container">
+    <header>
+      <h1>InfoSec Quiz</h1>
+      <a class="home-link" href="index.html"><i class="fa fa-home" style="font-size: 28px; color: white;"></i></a>
+      <!--
+      <a class="about-link" href="index.html">About</a>
+      
+      <label class="switch">
+          <input onclick = "dark_mode()" type="checkbox" class="btn-toggle">
+          <span class="slider"></span>
+      </label>
+    -->
+
+    </header>
+
+    <div class="intro">
+      <p>Take a small fun quiz on Information Security</p>
+      <a href="#quiz_section"></a>
+    </div>
+    
+    <section class="main-section">
+      
+      <div class="card" id="quiz_section">
+
+        <div id="quiz">
+          <h1 id="quiz-name"></h1>
+          
+        </div>
+
+        <div id="quiz-buttons">
+          <button id="submit-button" >Submit</button>
+          <button id="next-question-button" >Next</button>
+          <button id="prev-question-button" >Previous</button>
+
+        </div>
+
+        <div id="quiz-results">
+
+          <p id="quiz-results-message"></p>
+          <p id="quiz-results-score"></p>
+          <button id="quiz-retry-button">Retry</button>
+
+        </div>
+      </div>
+
+    </section>
+<!--
+    <section class="quotes">
+      <div class="col-md-4 col-sm-6 footer-box">
+            <h3 class="fh5co-footer-heading">About InfoSec</h3>
+            <p>InfoSec aims at spreading information security awareness to students and internet users</p>
+            <p><a href="quiz.html" class="btn btn-outline btn-sm">Back Up</a></p>
+
+          </div>
+
+    </section>
+-->
+
+      </footer>
+      </section>
+    <script src="switch.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>
